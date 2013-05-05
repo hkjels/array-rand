@@ -1,0 +1,14 @@
+{
+  "name": "array-rand",
+  "repo": "hkjels/array-rand",
+  "description": "Return a random value from an array",
+  "version": "0.0.1",
+  "keywords": ["random", "array", "rand", "array-rand"],
+  "dependencies": {
+    "danzajdband/random": "*"
+  },
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
