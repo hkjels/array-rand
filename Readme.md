@@ -1,20 +1,21 @@
-
 # array-rand
 
   Return a random value from an array
 
 ## Installation
-
-    $ component install hkjels/array-rand
+```sh
+$ component install hkjels/array-rand
+```
 
 ## Usage
+```javascript
+var array_rand = require('array-rand'),
+    arr = ['do', 'not', 'disturb'];
 
-    var array_rand = require('array-rand'),
-        arr = ['do', 'not', 'disturb'];
-
-    console.log(array_rand(arr));  // Might return 'not'
-    console.log(array_rand(arr));  // Might return 'disturb'
-    console.log(array_rand(arr));  // Might return 'do'
+console.log(array_rand(arr));  // Might return 'not'
+console.log(array_rand(arr));  // Might return 'disturb'
+console.log(array_rand(arr));  // Might return 'do'
+```
 
 ## API
 
